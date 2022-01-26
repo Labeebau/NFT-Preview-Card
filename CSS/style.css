@@ -1,0 +1,97 @@
+body{
+    
+    background-color: hsl(217, 54%, 11%);
+    background-size: cover;
+    display: flex;
+    vertical-align: middle;
+    font-family: 'Outfit', sans-serif;
+    justify-content:center;
+    text-align: center;
+}
+a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    border:1px solid;
+    border-color: hsl(215, 32%, 27%);
+    opacity: .5;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.equi-head{
+    font-size: 22px;
+}
+.main{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    height: 38rem;
+    margin-top: 10rem;
+    margin-bottom: 50px;
+    padding: 15px;
+    width: 20rem;
+}
+.img-equilibrium{
+    border-radius: 1rem;
+    height:18rem;
+    margin-top: 10px;
+    width: 19rem;
+}
+.equi-intro{
+    padding:0 10px;
+    text-align: left;
+}
+.equi-info{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.img-price{
+    background-image: url(../images/icon-ethereum.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    min-width: 20px;
+}
+.img-time{
+    background-image: url(../images/icon-clock.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    min-width: 20px;
+}
+.price-text{
+    color: hsl(178, 100%, 50%);
+}
+
+.author{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.avatar{
+    border:1px solid white;
+    border-radius: 1rem;
+    height: 30px;
+    width: 30px;
+}
+
