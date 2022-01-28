@@ -1,0 +1,122 @@
+body{
+    
+    background-color: hsl(217, 54%, 11%);
+    background-size: cover;
+    display: flex;
+    vertical-align: middle;
+    font-family: 'Outfit', sans-serif;
+    justify-content:center;
+    text-align: center;
+}
+a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+hr{
+    border:1px solid;
+    border-color: hsl(215, 32%, 27%);
+    opacity: .5;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.card-intro__equi-head{
+    font-size: 22px;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    height: 38rem;
+    margin-top: 10rem;
+    margin-bottom: 50px;
+    padding: 15px;
+    width: 20rem;
+}
+.card-img__img-equilibrium{
+    border-radius: 1rem;
+    height:18rem;
+    margin-top: 10px;
+    width: 19rem;
+}
+
+.card-intro{
+    padding:0 10px;
+    text-align: left;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
+.card-info__price{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.card-info__time{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.price__img{
+    background-image: url(../images/icon-ethereum.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    min-width: 20px;
+}
+.time__img{
+    background-image: url(../images/icon-clock.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    min-width: 20px;
+}
+.price__text{
+    color: hsl(178, 100%, 50%);
+}
+
+.card-author{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.card-author__avatar{
+    border:1px solid white;
+    border-radius: 1rem;
+    height: 30px;
+    width: 30px;
+}
+.card-img{
+    position: relative;
+}
+.card-img__overlay {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-image: url(../images/icon-view.svg);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: hsl(178, 100%, 50%);
+  }
+  .card-img:hover .card-img__overlay{
+      opacity: 1;
+      
+  }
+ 
